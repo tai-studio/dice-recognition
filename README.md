@@ -1,8 +1,14 @@
 # dice-recognition
 2024, Till Bovermann
 
+
+![setup](data/setup_IMG_0671-3000px.jpg)
+
 recognise and count dice eyes 
 
+## Todo
+
++ [ ] add ROI selection and cropping
 
 ## Installation
 
