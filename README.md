@@ -25,3 +25,7 @@ get help
 python getDiceEyes.py -h
 ```
 
+run an example
+```bash
+python getDiceEyes.py --min 0.3 --max 0.9 data/dice_5_eyes_4.jpg
+```
