@@ -80,7 +80,9 @@ def get_dice_value(contours, verbose=False):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="get dice value from image")
+    parser = argparse.ArgumentParser(
+        description="get dice value from image", 
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("image", help="path to image")
     parser.add_argument("--min", type=float, default=0.3, help="minimum area of contour in percentage")
     parser.add_argument("--max", type=float, default=0.9, help="maximum area of contour in percentage")
